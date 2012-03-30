@@ -15,7 +15,8 @@ The Goal is:
 
 Actual in development: [+ ready; -in work]
  + Right now the settings do not work because of the new tabs [fixed] shell be featured in 0.2
- - deign of settingstab
+ - design of settingstab
+   Should be much prettyer, less gray?
 
 
 version 0.1
@@ -25,10 +26,14 @@ version 0.1
  
 
 ToDo:
- - Loginpage (in work)
+ - general design. Right now It looks like google, thats good because the user will recognise this and I think facebook and google can not be wrong using a top navigation. But still... we do not copy
+ - Loginpage
+   I think nice Images could make the startpage more usefull.
  - Images for Startpage
  - Warningspage
  - CSS (make ist readable)
  - possibility to change colors easyly (future)
+   with different stylesheets or for the user to change (?)
  - Create a help
-   So that unexperianced user can use WB more efficent
+   So that unexperianced user can use WB more efficent.
+   I thought I will create tooltips that guide trough WB?

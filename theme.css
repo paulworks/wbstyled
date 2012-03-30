@@ -15,18 +15,18 @@ img {
 	border: 0px;
 }
 .center {
-  width: 900px;
-  margin: 0 auto;
+	width: 900px;
+	margin: 0 auto;
 }
 #admin_header {
-  width: 100%;
-  clear: both;
-  display: block;
-  float: none;
-  position: fixed;
-  background-color: #000;
-  top: 0px;
-  z-index: 100
+	width: 100%;
+	clear: both;
+	display: block;
+	float: none;
+	position: fixed;
+	background-color: #000;
+	top: 0px;
+	z-index: 100
 }
 h1 {
 	text-align: left;
@@ -83,28 +83,28 @@ a:hover {
 	text-decoration: none;
 }
 .menu .current a, .menu a:hover {
-	background: #CC3B02; 
+	background: #CC3B02;
 }
-.homelink a{
-  display: block;
-  width: 16px;
-  background: url('images/house.png') no-repeat center center #000;
-  text-indent: -9999em; 
+.homelink a {
+	display: block;
+	width: 16px;
+	background: url('images/house.png') no-repeat center center #000;
+	text-indent: -9999em;
 }
 .viewlink a {
-  background: url('images/world.png') no-repeat center center #000; 
+	background: url('images/world.png') no-repeat center center #000;
 }
 .logoutlink a {
-  background: url('images/door_in.png') no-repeat center center #000; 
+	background: url('images/door_in.png') no-repeat center center #000;
 }
 .homelink a:hover {
-  background: url('images/house.png') no-repeat center center #CC3B02;
+	background: url('images/house.png') no-repeat center center #CC3B02;
 }
 .viewlink a:hover {
-  background: url('images/world.png') no-repeat center center #CC3B02; 
+	background: url('images/world.png') no-repeat center center #CC3B02;
 }
 .logoutlink a:hover {
-  background: url('images/door_in.png') no-repeat center center #CC3B02; 
+	background: url('images/door_in.png') no-repeat center center #CC3B02;
 }
 #content_container {
 	text-align: left;
@@ -615,6 +615,29 @@ button.status {
 	padding-left: 36px;
 	background: #CEFF99 url('icons/languages.png') no-repeat left center;
 }
+/*Footer*/
+#footer {
+	margin-top: 20px;
+	clear: both;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #757575
+}
+#footer a {
+	color: #638D91
+}
+#footerRights, #footerWB {
+	float: left;
+	width: 45%;
+}
+#footerRights {
+	margin-right: 5%;
+}
+#footerWB {
+	margin-left: 5%;
+}
+/*End Footer*/
+/*Buttons and Inputs*/
 input, textarea, select, option {
 	border: 1px solid #808080;
 	padding: 3px;
@@ -624,7 +647,7 @@ input, textarea, select, option {
 button, input[type="submit"],  input[type="button"], input[type="reset"] {
 	background-color: #C9C9C9;
 	border: 1px solid #6B6B6B;
-	border-radius: 20px;
+	border-radius: 10px;
 	cursor: pointer;
 }
 input[type="submit"], input[type="reset"] {
@@ -632,13 +655,12 @@ input[type="submit"], input[type="reset"] {
 	width: auto !important;
 	color: #fff;
 	border: 0px;
-	padding: 5px 20px;
-	opacity: 0.8
+	padding: 5px 10px;
+	opacity: 1
 }
 input[type="submit"]:hover, input[type="reset"]:hover {
 	opacity: 1
 }
-/*gradient*/
 input[type="submit"] {
 	background: #94bd2d;
 	background: -moz-linear-gradient(top, #94bd2d 0%, #70a50d 100%);
@@ -659,143 +681,165 @@ input[type="reset"] {
 	background: linear-gradient(top, #d3702a 1%,#ea652c 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d3702a', endColorstr='#ea652c',GradientType=0 );
 }
-#footer {
-	margin-top: 20px;
-	clear: both;
-	text-align: left;
-	margin-bottom: 20px;
-	color: #757575
-}
-#footer a {
-  color: #638D91
-}
-#footerRights, #footerWB {
-  float:left;
-  width: 45%;
-}
-#footerRights {
-  margin-right: 5%;
-}
-#footerWB {
-  margin-left: 5%;
-}
+/*END and Inputs*/
+
 .pagemodify {
-  width: 100%;
-  opacity: 0.3;
+	width: 100%;
+	opacity: 0.3;
 }
 .pagemodify:hover {
-   opacity: 1;
+	opacity: 1;
 }
 .clear {
-  clear: both;
+	clear: both;
 }
-/*startpage*/
+/*Startpage*/
 .actionblock {
-  width: 27%;
-  padding: 3%; /*together 33% */
-  position: relative;
-  display: block;
-  min-height: 100px;
-  background-color: green; 
-  opacity: 0.7;
-  float: left;
+	width: 27%;
+	padding: 3%;
+/*together 33% */
+	position: relative;
+	display: block;
+	min-height: 100px;
+	background-color: green;
+	opacity: 0.7;
+	float: left;
 }
 .actionblock:hover {
-  opacity: 1
+	opacity: 1
 }
 .actionblocklink {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-top: 0px;
-left: 0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 .textlayer {
-  display: block;
-  position: absolute;
-  background: #000;
-  bottom: 0px;
-  width: 100%;
-  left: 0px;
+	display: block;
+	position: absolute;
+	background: #000;
+	bottom: 0px;
+	width: 100%;
+	left: 0px;
 }
 .contentlayer {
-  padding: 5px;
-  color: #fff;
+	padding: 5px;
+	color: #fff;
 }
 .startpagelink,  .startpagelink:hover {
-  font-weight: bold;
-  color: #fff !important;
-  font-size: 15px;
-    text-decoration: none !important;
+	font-weight: bold;
+	color: #fff !important;
+	font-size: 15px;
+	text-decoration: none !important;
 }
 #start_pages {
-  background: url('images/startpageimages/pages.jpg');
+	background: url('images/startpageimages/pages.jpg');
 }
 #start_addons {
-  background: url('images/startpageimages/module.jpg');
+	background: url('images/startpageimages/module.jpg');
 }
 #start_settings {
-  background: url('images/startpageimages/options.jpg');
+	background: url('images/startpageimages/options.jpg');
 }
 #start_media {
-  background: url('images/startpageimages/media.jpg');
+	background: url('images/startpageimages/media.jpg');
 }
 #start_prefferences {
-  background: url('images/startpageimages/preferences.jpg');
+	background: url('images/startpageimages/preferences.jpg');
 }
 #start_admintools {
-  background: url('images/startpageimages/admintools.jpg');
+	background: url('images/startpageimages/admintools.jpg');
 }
-#start_access{
-  background: url('images/startpageimages/pages.jpg');
+#start_access {
+	background: url('images/startpageimages/pages.jpg');
 }
+/*end Startpage*/
+/*Addpage Button*/
 #addpage {
-  display: block;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 64px;
-  height: 32px;
-
-
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 64px;
+	height: 32px;
 }
 #togglebutton {
-  display: block;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background: url('images/big_add_page.png') no-repeat center center;
-  cursor: pointer; 
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: url('images/big_add_page.png') no-repeat center center;
+	cursor: pointer;
 }
-#togglebutton.addvisible{
-   background: url('images/big_add_page.png') no-repeat center center #CC3B02;
+#togglebutton.addvisible {
+	background: url('images/big_add_page.png') no-repeat center center #CC3B02;
 }
 #addpageform {
-  background: url('images/arrow_add.png')no-repeat top right;
-  padding: 10px;
-  display: block;
-  position: absolute;
-  top: 30px;
-  padding-top: 20px;
-  right: 0px;
-  color: #fff;
+	background: url('images/arrow_add.png')no-repeat top right;
+	padding: 10px;
+	display: block;
+	position: absolute;
+	top: 30px;
+	padding-top: 20px;
+	right: 0px;
+	color: #fff;
 }
-#addpageform td,#addpageform p, #addpageform a, #addpageform label, #addpageform h2  {
-  color: #fff;
+#addpageform td, #addpageform p, #addpageform a, #addpageform label, #addpageform h2 {
+	color: #fff;
 }
+/*end Addpage Button*/
 /*loginpage*/
 #loginbody {
-  background: url('images/startpage_1500px.jpg') no-repeat center center;
+	background: url('images/startpage_1500px.jpg') no-repeat center center;
+	overflow-x: hidden;
+}
+#loginformTitle {
+  overflow: hidden;
+  text-align: center;
+  height: 200px;
+  margin-top: 100px;
+  background: url('images/w_30.png');
+}
+#loginformTitle h1 {
+  font-size: 200px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 200px;
+  width: 10000px;
+  display: block;
+  position: absolute;
+  overflow: hidden;
 }
 #loginform {
-  background: #fff;
+	background: url('images/w_70.png');
   padding: 20px;
-  border-radius: 10px;
   margin: 0 auto;
-  margin-top: 150px;
   width: 300px;
-
+  height: 100%;
+  z-index: 1000;
+  position: relative;
 }
+/*end Loginpage*/
+/*settings Tabs JQUERY UI*/
+.ui-tabs-nav {
+	padding: 0px !important;
+}
+#tabs, .ui-tabs-nav, .ui-widget-header, .ui-state-default {
+	border: 0px !important;
+	background: transparent;
+}
+.ui-tabs-nav {
+}
+.ui-state-default {
+	border-radius: 0px;
+	background: red;
+}
+.ui-tabs-selected, .ui-tabs-panel {
+	background: #F2F2F2 !important;
+	border: 0px  !important;
+}
+/*end settings Tab*/

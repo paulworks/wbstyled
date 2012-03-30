@@ -10,8 +10,8 @@
 <link href="{THEME_URL}/theme.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="document.login.{USERNAME_FIELDNAME}.focus();" id="loginbody">
+<div id="loginformTitle"><h1>login anmelden login anmelden login</h1>
 <div id="loginform">
-<h2>Anmelden</h2>
 <form name="login" class="login" action="{ACTION_URL}" method="post">
         <input type="hidden" name="url" value="{URL}" />
         <input type="hidden" name="username_fieldname" value="{USERNAME_FIELDNAME}" />
@@ -25,6 +25,7 @@
         <label for="remember">merken: </label><input  type="checkbox" name="remember" id="remember" value="true" />
         </div><br />        
         <input type="submit" name="submit" value="{TEXT_LOGIN}" />
+</div>
 </div>
 </body>
 </html>
