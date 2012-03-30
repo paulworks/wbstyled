@@ -13,9 +13,10 @@ The Goal is:
 - clean UI (less buttons, more editing space)
 - to replace the old backend with this one... for everyone
 
-Errors:
- - Right now the settings do not work because of the new tabs
-   some help?
+Actual in development: [+ ready; -in work]
+ + Right now the settings do not work because of the new tabs [fixed] shell be featured in 0.2
+ - deign of settingstab
+
 
 version 0.1
  + New Navigation
