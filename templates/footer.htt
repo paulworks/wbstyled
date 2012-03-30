@@ -1,0 +1,23 @@
+<!-- BEGIN footer_block -->
+
+
+<div id="footer">
+
+ <div id="footerRights">
+   Bei Fragen wenden Sie sich an mich <a href="http://paul.saary.de" target="_blank">Paul.Saary.de</a><br />
+  <a href="http://www.websitebaker2.org/" title="external">WebsiteBaker</a> steht unter der <a href="http://www.gnu.org/licenses/gpl.html" title="WebsiteBaker is released under the GNU General Public License">GNU General Public License</a><br />
+  Icons by <a href="http://dryicons.com" target="_blank">http://dryicons.com</a> and by <a href="http://www.famfamfam.com/" target="_blank">famfamfam</a>
+ </div>
+ <div id="footerWB">
+    <span class="version">WB Version {VERSION} {SP}</span><br />
+    <span class="version">Revision {REVISION}</span><br />
+    <span class="version"><a href="http://paul.saary.de" target="_blank">Paul Saary</a></span>
+ </div>
+ <br class="clear" />
+</div>
+</div>
+</div>
+{BACKEND_BODY_MODULE_JS}
+</body>
+</html>
+<!-- END footer_block -->

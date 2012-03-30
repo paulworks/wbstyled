@@ -1,0 +1,30 @@
+<!-- BEGIN mainBlock -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>{TEXT_LOGIN}</title>
+<meta http-equiv="content-type" content="text/html; charset={CHARSET}" />
+<meta http-equiv="content-language" content="{LANGUAGE}" />
+<meta name="description" content="{TEXT_LOGIN}" />
+<meta name="keywords" content="{TEXT_LOGIN}" />
+<link href="{THEME_URL}/theme.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="document.login.{USERNAME_FIELDNAME}.focus();" id="loginbody">
+<div id="loginform">
+<form name="login" class="login" action="{ACTION_URL}" method="post">
+        <input type="hidden" name="url" value="{URL}" />
+        <input type="hidden" name="username_fieldname" value="{USERNAME_FIELDNAME}" />
+        <input type="hidden" name="password_fieldname" value="{PASSWORD_FIELDNAME}" />
+        
+        <input type="text" maxlength="{MAX_USERNAME_LEN}" name="{USERNAME_FIELDNAME}" value="{USERNAME}" style="width: 180px;" />
+        <br />
+        <input type="password" maxlength="{MAX_PASSWORD_LEN}" name="{PASSWORD_FIELDNAME}" style="width: 180px;" /> <br />
+        
+        <div style="{DISPLAY_REMEMBER_ME}">
+        merken: <input  type="checkbox" name="remember" id="remember" value="true" />
+        </div><br />        
+        <input type="submit" name="submit" value="{TEXT_LOGIN}" />
+</div>
+</body>
+</html>
+<!-- END mainBlock -->
