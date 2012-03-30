@@ -63,7 +63,9 @@ $(document).ready(function()
           $('#addpage #addpageform').show();
           $(this).addClass('addvisible');
     }
-
   });
+  
+  //options Tabs
+  $("#tabs").tabs({ cookie: { expires: 30 } });
 
 });

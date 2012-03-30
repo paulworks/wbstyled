@@ -664,11 +664,20 @@ input[type="reset"] {
 	clear: both;
 	text-align: left;
 	margin-bottom: 20px;
+	color: #757575
+}
+#footer a {
+  color: #638D91
 }
 #footerRights, #footerWB {
   float:left;
-  width: 40%;
-  margin: 5%;
+  width: 45%;
+}
+#footerRights {
+  margin-right: 5%;
+}
+#footerWB {
+  margin-left: 5%;
 }
 .pagemodify {
   width: 100%;
@@ -721,25 +730,25 @@ left: 0px;
     text-decoration: none !important;
 }
 #start_pages {
-  background: red;
+  background: url('images/startpageimages/pages.jpg');
 }
 #start_addons {
-  background: green;
+  background: url('images/startpageimages/module.jpg');
 }
 #start_settings {
-  background: blue;
+  background: url('images/startpageimages/options.jpg');
 }
 #start_media {
-  background: yellow;
+  background: url('images/startpageimages/media.jpg');
 }
 #start_prefferences {
-  background: orange;
+  background: url('images/startpageimages/preferences.jpg');
 }
 #start_admintools {
-  background: gray;
+  background: url('images/startpageimages/admintools.jpg');
 }
 #start_access{
-   background: blue;
+  background: url('images/startpageimages/pages.jpg');
 }
 #addpage {
   display: block;
