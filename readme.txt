@@ -1,6 +1,6 @@
 Hello,
 
-this project has the goal to create a beautiful backend for the Websitebaker 2.8 and higher.
+this project has the goal to create a beautiful backend for the Websitebaker 2.8.3 and higher.
 
 To reach this goal I want to keep the workflow that websitebaker provides but improve the design and maybe also some core-functions.
 
