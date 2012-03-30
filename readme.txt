@@ -4,6 +4,16 @@ this project has the goal to create a beautiful backend for the Websitebaker 2.8
 
 To reach this goal I want to keep the workflow that websitebaker provides but improve the design and maybe also some core-functions.
 
+##############################################################
+##############################################################
+######                                                  ######
+######              IT STILL LOOKS SHITTY!!!!           ######
+######                DON'T EXPECT NOTHING              ######
+######                                                  ######
+##############################################################
+##############################################################
+
+
 
 The Goal is:
 
