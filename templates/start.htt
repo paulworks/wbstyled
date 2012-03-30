@@ -1,6 +1,7 @@
 <div>
-  <div class="actionblock" id="start_pages"  style="{DISPLAY_PAGES};">      
-    <a href="{ADMIN_URL}/pages/index.php" class="actionblocklink"></a>  
+  <div class="actionblock" id="start_pages"  style="{DISPLAY_PAGES};">
+    <a href="{ADMIN_URL}/pages/index.php" class="actionblocklink"></a>        
+    <a href="{ADMIN_URL}/pages/index.php" class="actionblocklink colored">{PAGES}</a>  
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/pages/index.php" class="startpagelink">{PAGES}</a><br />{PAGES_OVERVIEW}   
@@ -9,6 +10,7 @@
   </div>
   <div class="actionblock" id="start_addons"  style="{DISPLAY_ADDONS};">      
     <a href="{ADMIN_URL}/addons/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/addons/index.php" class="actionblocklink colored">{ADDONS}</a>  
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/addons/index.php" class="startpagelink">{ADDONS}</a><br />{ADDONS_OVERVIEW}   
@@ -16,7 +18,8 @@
     </div>
   </div>
   <div class="actionblock" id="start_settings"  style="{DISPLAY_SETTINGS};">      
-    <a href="{ADMIN_URL}/settings/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/settings/index.php" class="actionblocklink"></a>
+    <a href="{ADMIN_URL}/settings/index.php" class="actionblocklink colored">{SETTINGS}</a>  
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/settings/index.php" class="startpagelink">{SETTINGS}</a><br />{SETTINGS_OVERVIEW}   
@@ -25,6 +28,7 @@
   </div>
   <div class="actionblock" id="start_media"  style="{DISPLAY_MEDIA};">      
     <a href="{ADMIN_URL}/media/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/media/index.php" class="actionblocklink colored">{MEDIA}</a> 
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/media/index.php" class="startpagelink">{MEDIA}</a><br />{MEDIA_OVERVIEW}   
@@ -33,6 +37,7 @@
   </div>
   <div class="actionblock" id="start_prefferences">      
     <a href="{ADMIN_URL}/preferences/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/preferences/index.php" class="actionblocklink colored">{PREFERENCES}</a> 
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/preferences/index.php" class="startpagelink">{PREFERENCES}</a><br />{PREFERENCES_OVERVIEW}   
@@ -41,6 +46,7 @@
   </div>
   <div class="actionblock" id="start_admintools"  style="{DISPLAY_ADMINTOOLS};">      
     <a href="{ADMIN_URL}/admintools/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/admintools/index.php" class="actionblocklink colored">{ADMINTOOLS}</a> 
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/admintools/index.php" class="startpagelink">{ADMINTOOLS}</a><br />{ADMINTOOLS_OVERVIEW}   
@@ -49,6 +55,7 @@
   </div>
   <div class="actionblock" id="start_access"  style="{DISPLAY_ACCESS};">      
     <a href="{ADMIN_URL}/access/index.php" class="actionblocklink"></a>  
+    <a href="{ADMIN_URL}/access/index.php" class="actionblocklink colored">{ACCESS}</a> 
     <div class="textlayer">    
       <div class="contentlayer">    
         <a href="{ADMIN_URL}/access/index.php" class="startpagelink">{ACCESS}</a><br />{ACCESS_OVERVIEW}   
