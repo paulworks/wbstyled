@@ -1,10 +1,8 @@
 Hello,
 
-this project has the goal to create a beautiful backend for the 
-Websitebaker 2.8 and higher.
+this project has the goal to create a beautiful backend for the Websitebaker 2.8 and higher.
 
-To reach this goal I want to keep the workflow that websitebaker provides
-but improve the design and maybe also some core-functions.
+To reach this goal I want to keep the workflow that websitebaker provides but improve the design and maybe also some core-functions.
 
 
 The Goal is:
@@ -15,6 +13,9 @@ The Goal is:
 - clean UI (less buttons, more editing space)
 - to replace the old backend with this one... for everyone
 
+Errors:
+ - Right now the settings do not work because of the new tabs
+   some help?
 
 version 0.1
  + New Navigation
