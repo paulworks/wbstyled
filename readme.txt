@@ -1,14 +1,17 @@
 Hello,
 
-this theme "wbstyled" has the goal to improve the way you interact with Websitebaker.
+this project has the goal to create a beautiful backend for the 
+Websitebaker 2.8 and higher.
 
-It shell provide easy access to all of the tools while still looking easy.
+To reach this goal I want to keep the workflow that websitebaker provides
+but improve the design and maybe also some core-functions.
 
-The goal is:
 
-- to provide clean marup (less tables mor div)
-- enhance th workflow
-- give hints to the user
+The Goal is:
+
+- to provide clean and valid markup (less tables mor div)
+- enhance th workflow of the user
+- give hints to the user (Like tooltips)
 - clean UI (less buttons, more editing space)
 - to replace the old backend with this one... for everyone
 
@@ -16,11 +19,14 @@ The goal is:
 version 0.1
  + New Navigation
  + enhanced startpage
+ + Better possibility of addding a Page
  
 
 ToDo:
- - Loginpage
- - Warningspage
- - CSS
- - possibility to change colors easyly
+ - Loginpage (in work)
  - Images for Startpage
+ - Warningspage
+ - CSS (make ist readable)
+ - possibility to change colors easyly (future)
+ - Create a help
+   So that unexperianced user can use WB more efficent
