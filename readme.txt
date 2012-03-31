@@ -27,6 +27,9 @@ Actual in development: [+ ready; -in work]
  + Right now the settings do not work because of the new tabs [fixed] shell be featured in 0.2
  - design of settingstab
    Should be much prettyer, less gray?
+ - create a help [I am using the Joyride-plugin for Jquery: http://www.zurb.com/playground/jquery-joyride-feature-tour-plugin]
+   actually works great.
+   At the time just a proofe of concept, but will get better
 
 
 version 0.1

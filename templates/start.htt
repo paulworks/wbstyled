@@ -62,5 +62,17 @@
       </div>  
     </div>
   </div>
+    <div class="actionblock" id="start_help"  style="{DISPLAY_ACCESS};">      
+      I help you:<br />
+      <span id="HelpModifyPage">How to modify a Page</span>
+      
+    <ol id="helpEditPage">
+      <li data-id="HelpModifyPage" data-text="show me...">Hello,
+                                                          <br />to edit a page in Websitebaker is as easy as it sounds.<br />
+                                                          let me show you</li>
+      <li data-id="uniquepages" data-text="">You need to go to the pages. So click here...</li>
+    </ol>
+      
+  </div>
   <br class="clear" /><!-- to make a div with hight-->
 </div>            

@@ -705,9 +705,6 @@ input[type="reset"] {
 	overflow: hidden;
 	box-shadow: 0px 0px 20px #A6A6A6;
 }
-.actionblock:hover {
-	opacity: 1
-}
 .actionblocklink {
 	display: block;
 	width: 100%;
