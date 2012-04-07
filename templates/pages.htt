@@ -3,7 +3,7 @@
 <h2>{HEADING_ADD_PAGE}</h2>
 <form name="add" action="add.php" method="post">
 {FTAN}
-<table summary="" cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+<table summary="" cellpadding="2" cellspacing="0" border="0" width="100%" align="center" id="pagestable">
   <tr>
 	<td width="70" height="20">{TEXT_TITLE}:</td>
 	<td width="240" height="20"><input type="text" name="title" style="width: 232px;" /></td>
@@ -81,6 +81,12 @@
 <h2>{HEADING_MODIFY_INTRO_PAGE}</h2>
 <a href="intro.php">{INTRO_LINK}</a>
 </div>
+<!--
+ <ol id="helpEditPage" class="help_manual">
+      <li data-id="pagestable" data-text="How do I add a page?">On This page you can edit pages. Just click on a page or add a page...</li>
+      <li data-id="togglebutton" data-options="tipLocation:bottom" data-text="">To add a page click here</li>
+    </ol>
+ -->
 <!-- Addition for remembering expanded state of pages -->
 <script type="text/javascript">
 var THEME_URL = '{THEME_URL}';

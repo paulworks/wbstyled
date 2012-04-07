@@ -30,8 +30,8 @@ function confirm_link(message, url) {
 	if(confirm(message)) location.href = url;
 }
 </script>
-<!--help-->
-<script src="{THEME_URL}/help/jquery.joyride-1.0.3.js" type="text/javascript"></script>
+<!--help
+<script src="{THEME_URL}/help/jquery.joyride-1.0.3.js" type="text/javascript"></script> -->
 
 
 {BACKEND_MODULE_JS}

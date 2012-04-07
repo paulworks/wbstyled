@@ -1,6 +1,6 @@
 <!-- BEGIN footer_block -->
 
-
+<br class="clear" />
 <div id="footer">
 
  <div id="footerRights">
@@ -11,7 +11,7 @@
  <div id="footerWB">
     <span class="version">WB Version {VERSION} {SP}</span><br />
     <span class="version">Revision {REVISION}</span><br />
-    <span class="version"><a href="http://paul.saary.de" target="_blank">Paul Saary</a></span>
+    <!-- please leave this --><span class="version">Template made by <a href="http://paul.saary.de" target="_blank">Paul Saary</a></span>
  </div>
  <br class="clear" />
 </div>

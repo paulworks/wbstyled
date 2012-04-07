@@ -36,6 +36,7 @@ version 0.1
  + New Navigation
  + enhanced startpage
  + Better possibility of addding a Page
+ + Preference-page cleaner and with functional labels
  
 
 ToDo:

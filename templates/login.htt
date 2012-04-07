@@ -10,7 +10,6 @@
 <link href="{THEME_URL}/theme.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="document.login.{USERNAME_FIELDNAME}.focus();" id="loginbody">
-<div id="loginformTitle"><h1>login anmelden login anmelden login</h1>
 <div id="loginform">
 <form name="login" class="login" action="{ACTION_URL}" method="post">
         <input type="hidden" name="url" value="{URL}" />

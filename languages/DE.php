@@ -30,4 +30,5 @@ $template_description 	= 'Ein erweitertes Backend-Theme f&uuml;r Websitebaker 2.
 $TEXT['ADMIN_ONLY'] = 'diese Optionen nur Administratoren zug&auml;nglich machen';
 $TEXT['NO_SHOW_THUMBS'] = 'Vorschaubilder verstecken';
 $TEXT['TEXT_HEADER'] = 'Maximale Bildergr&ouml;&szlig;e f&uuml;r Ordner festlegen</b><br><small><i>(&Auml;nderung nur beim Hochladen)</i></small>';
+$TEXT['STYLED_LOGIN'] = "Login";
 
