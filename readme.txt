@@ -17,7 +17,7 @@ To reach this goal I want to keep the workflow that websitebaker provides but im
 
 The Goal is:
 
-- to provide clean and valid markup (less tables mor div)
+- to provide clean and valid markup (less tables more div's)
 - enhance th workflow of the user
 - give hints to the user (Like tooltips)
 - clean UI (less buttons, more editing space)

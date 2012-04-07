@@ -91,5 +91,15 @@ $(document).ready(function()
   $("#tabs").tabs({ cookie: { expires: 30 } });
 
 
+  //buttons
+  $('input[type="button"], input[type="submit"], input[type="reset"]').css("opacity", "0.8");
+   var starttime = 200;
+   $('input[type="button"], input[type="submit"], input[type="reset"]').hoverIntent(
+   function(){
+    $(this).fadeTo(starttime,1);
+   },
+    function(){
+    $(this).fadeTo(starttime,0.8);
+   });
 
 });
